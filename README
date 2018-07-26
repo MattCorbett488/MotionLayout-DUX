@@ -1,0 +1,7 @@
+# MotionLayout DUX
+
+Hi! This repo is meant as a fun way for developers and designers to experience the beauty and wonder that is MotionLayout.  There are 4 primary ways we're going to interact with MotionLayout - do all of 'em or just mess around with one.
+
+## Fragment Transition
+
+This one is pretty neat.  We have two fragments (`FirstFragment` and `SecondFragment`).  Via the `FragmentTransitionActivity`, these two fragments transition between one another by swiping the container held in the Activity.  If you want to mess around with transitioning between a bunch of different elements on screens, just start messing with the `fragment_first.xml` and `fragment_second.xml` files
