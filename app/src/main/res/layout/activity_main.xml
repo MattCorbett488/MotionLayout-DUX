@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/fragmentTransitionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment Transition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appBarTransitionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Bar Transition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragmentTransitionButton"
+        app:layout_constraintBottom_toTopOf="@+id/viewPagerPageTransitionButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/viewPagerPageTransitionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPager Page Transition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBarTransitionButton"
+        app:layout_constraintBottom_toTopOf="@+id/keyframeAnimationButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/keyframeAnimationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keyframe Animations"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewPagerPageTransitionButton"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</android.support.constraint.ConstraintLayout>
