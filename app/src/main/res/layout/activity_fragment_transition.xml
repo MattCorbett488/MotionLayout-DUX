@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/motionLayout"
     app:layoutDescription="@xml/fragment_transition_scene"
-    tools:context=".FragmentTransitionActivity">
+    tools:context="com.willowtree.matthewcorbett.motionlayoutdux.activities.FragmentTransitionActivity">
 
 
     <com.willowtree.matthewcorbett.motionlayoutdux.customviews.TouchContainerLayout
