@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.willowtree.matthewcorbett.motionlayoutdux.customviews.ViewPagerHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    app:layoutDescription="@xml/view_pager_scene"
+    android:layout_width="match_parent"
+    android:layout_height="230dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/dumb_kid"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/bottom_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sanic_good"/>
+</com.willowtree.matthewcorbett.motionlayoutdux.customviews.ViewPagerHeader>
