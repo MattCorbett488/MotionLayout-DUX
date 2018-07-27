@@ -46,3 +46,11 @@ The setup for this is fairly simple:
 
 Look at the notes (included in this repo under the `notes` directory), specifically `Keyframes.md` for notes on how to alter the keyframes
 
+
+## Links
+
+[MotionLayout](https://developer.android.com/reference/android/support/constraint/motion/MotionLayout)
+
+[ConstraintLayout 2.0 Class List](https://developer.android.com/reference/android/support/constraint/classes)
+
+[Brief Tutsplus Tutorial on MotionLayout](https://code.tutsplus.com/tutorials/creating-animations-with-motionlayout-for-android--cms-31497)
