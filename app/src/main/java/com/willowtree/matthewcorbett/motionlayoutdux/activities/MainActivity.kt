@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         fragmentTransitionButton.startActivityOnClick(FragmentTransitionActivity::class.java)
         appBarTransitionButton.startActivityOnClick(AppBarLayoutActivity::class.java)
         viewPagerPageTransitionButton.startActivityOnClick(ViewPagerActivity::class.java)
+        keyframeAnimationButton.startActivityOnClick(KeyframeActivity::class.java)
     }
 
     private fun Button.startActivityOnClick(clazz: Class<out Activity>) = setOnClickListener {

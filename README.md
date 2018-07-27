@@ -34,3 +34,15 @@ Look at the following files to make changes to the ViewPager setup:
 
 There are also a couple bonus classes here.  The ViewPagerHeader can work with Lottie as well, so, if you want to mess with that, just replace `<include layout="@layout/viewpager_header" />` in `activity_view_pager.xml` with `<include layout="@layout/viewpager_header_lottie" />`
 
+## Free Play (Keyframe Animations)
+
+One of the***really*** powerful parts of MotionLayout is in its ability to let you do a whole mess of stuff between the start and end points of a transition.  The Keyframe example is just a place to go nuts and try out all the different animations and alterations you can do.
+
+The setup for this is fairly simple:
+
+`activity_keyframe.xml` - the layout file; change the widgets here (and in the corresponding MotionScene - `keyframe_scene.xml`) to alter the screen
+
+`keyframe_scene.xml` - the MotionScene for this activity
+
+Look at the notes (included in this repo under the `notes` directory), specifically `Keyframes.md` for notes on how to alter the keyframes
+
