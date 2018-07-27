@@ -9,7 +9,7 @@
     <android.support.v7.widget.AppCompatImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dumb_kid"
+        app:srcCompat="@drawable/matt_k"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
